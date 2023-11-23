@@ -1,5 +1,6 @@
 import React from "react"
 import Product from "./Product"
+import './Home.css'
 
 function Home() {
     return (
@@ -11,6 +12,27 @@ function Home() {
             ></img>
 
             <div className="home-row">
+                <Product
+                    id="000000001"
+                    title="Marhsall Origin 240-Watt 4x12 Inches Slant Extension Cabinet Amplifier PArt (ORI412A)"
+                    price={549.0}
+                    rating={4}
+                    image="https://m.media-amazon.com/images/I/91CUjdsS3ZL._AC_UL320_.jpg"
+                />
+                <Product
+                    id="000000001"
+                    title="Marhsall Origin 240-Watt 4x12 Inches Slant Extension Cabinet Amplifier PArt (ORI412A)"
+                    price={549.0}
+                    rating={4}
+                    image="https://m.media-amazon.com/images/I/91CUjdsS3ZL._AC_UL320_.jpg"
+                />
+                <Product
+                    id="000000001"
+                    title="Marhsall Origin 240-Watt 4x12 Inches Slant Extension Cabinet Amplifier PArt (ORI412A)"
+                    price={549.0}
+                    rating={4}
+                    image="https://m.media-amazon.com/images/I/91CUjdsS3ZL._AC_UL320_.jpg"
+                />
                 <Product
                     id="000000001"
                     title="Marhsall Origin 240-Watt 4x12 Inches Slant Extension Cabinet Amplifier PArt (ORI412A)"
