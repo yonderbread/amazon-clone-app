@@ -70,6 +70,13 @@ function Home() {
                     rating={4}
                     image="https://m.media-amazon.com/images/I/41fGgZhH9fL._AC_SL1000_.jpg"
                 />
+                <Product
+                    id="000000005"
+                    title="Ibanez TS9 Tube Screamer - Classic"
+                    price={99.00}
+                    rating={4}
+                    image="https://m.media-amazon.com/images/I/61h6+PvFewL._AC_UL320_.jpg"
+                />
             </div>
         </div>
     )
