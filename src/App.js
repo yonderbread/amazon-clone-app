@@ -1,19 +1,21 @@
-import "./App.css";
-import Header from "./Header";
-import Login from './Login';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css"
+import Header from "./Header"
+import Login from "./Login"
+import Home from "./Home"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 function App() {
-  return (
-    <Router>
-      <div className="App">
-        <Routes>
-          <Route path="/checkout" element={<Header />} />
-          <Route path="/login" element={<Login />} />
-        </Routes>
-      </div>
-    </Router>
-  );
+    return (
+        <Router>
+            <div className="App">
+                <Routes>
+                    <Route path="/checkout" element={<Header />} />
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/" element={[<Header />, <Home />]} />
+                </Routes>
+            </div>
+        </Router>
+    )
 }
 
-export default App;
+export default App
