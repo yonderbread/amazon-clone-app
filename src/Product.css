@@ -8,7 +8,7 @@
     z-index: 1;
     width: 100%;
     padding: 20px;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .product-rating {
